@@ -1,6 +1,6 @@
 ---
 name: first-ten
-description: Helps find and reach an app's first ten users by hand. Reads the brief, works out who the ideal first users are and where they gather, builds a list of ten, and helps write one personal message each, never a mass send. Use when someone asks "how do I get users", "who should I tell", "help me launch", or "write outreach messages".
+description: "Finds an app's first ten users by hand and helps write one personal message each. Use for 'how do I get users', 'help me launch', 'who should I tell' or 'write outreach messages'."
 ---
 
 # First ten

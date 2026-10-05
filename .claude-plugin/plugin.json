@@ -1,7 +1,7 @@
 {
   "name": "build-without-terminal",
   "description": "Fourteen plain-English skills that take an app from idea to first customers without the terminal: plan, set up, build, check and ship.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": { "name": "Tom Wild", "url": "https://hellocrossman.com" },
   "homepage": "https://github.com/hellocrossmanwild/Claude-skills-tools",
   "repository": "https://github.com/hellocrossmanwild/Claude-skills-tools",

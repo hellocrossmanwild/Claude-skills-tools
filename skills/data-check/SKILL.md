@@ -1,6 +1,6 @@
 ---
 name: data-check
-description: Checks an app's database is safe. Lists every table, what personal data it holds and who can read it, finds where the connection string lives, and flags exposed keys or open access. Read-only. Use when someone asks "is my data safe", "check my database", "who can see my data", or before launching.
+description: "Read-only check that an app's database and personal data are safe. Use for 'is my data safe', 'check my database', 'GDPR', 'security check' or 'could users see each other's data'."
 ---
 
 # Data check

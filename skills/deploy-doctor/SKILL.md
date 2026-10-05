@@ -1,6 +1,6 @@
 ---
 name: deploy-doctor
-description: Diagnoses a failed or broken Vercel deployment. Reads the build and runtime logs through the Vercel connector, explains what went wrong in plain English, and fixes it on a branch. Use when someone says "my deploy failed", "the site is broken", "Vercel error", "build failed", or "why isn't my change live?".
+description: "Diagnoses and fixes a failed or broken Vercel deployment in plain English. Use when a build or deploy fails, the live site errors or is down, or someone asks 'why won't it deploy'."
 ---
 
 # Deploy doctor

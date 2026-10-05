@@ -1,13 +1,25 @@
 ---
 name: review-loop
-description: Decides whether an app is ready to launch by asking for proof, not promises. Runs six questions, each with the evidence it needs, ideally in a fresh session that didn't build the app, and ends in a go / not yet report. Use when someone asks "is it ready", "review my app", "can I launch", or "is this production ready".
+description: "Decides if an app is ready to launch from evidence, not promises: six checks ending in go or not yet. Use for 'is it ready', 'review my app', 'can I launch' or 'is it production ready'."
 ---
 
 # Review loop
 
 You're reviewing an app for someone who can't read the code, so **evidence is everything**. Don't say "looks good": show it. Claude shouldn't mark its own homework, so if this session built the app, recommend running this review in a fresh session and say why.
 
-Work through the six questions in order. For each, gather the evidence, then give a verdict: ✓ ready, ⚠️ fix first, or ✗ blocker.
+Work through the six questions in order. For each, gather the evidence, then give a verdict: ✓ ready, ⚠️ fix first, or ✗ blocker. Copy this checklist into your reply and tick it off as you go, so they can see progress:
+
+```
+Launch review
+- [ ] 1. Front end
+- [ ] 2. Back end
+- [ ] 3. Security
+- [ ] 4. Everything works
+- [ ] 5. Production ready
+- [ ] 6. Paying customer
+```
+
+If you can't open pages yourself (for example in a normal chat rather than the Code tab), give them a short numbered list of exactly what to click and ask them to report back or send screenshots. Never mark a step passed without seeing the result.
 
 ## 1. Is all the front end good?
 Evidence: screenshots of every main flow (land → sign up → the core action → pay), at desktop and phone width. Look for broken layouts, unreadable text, placeholder copy, dead buttons, and screens with no way forward.

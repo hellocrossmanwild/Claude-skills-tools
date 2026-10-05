@@ -1,6 +1,6 @@
 ---
 name: make-it-yours
-description: Turns a generic AI-built app or template into a distinct brand. Interviews for personality, builds a small design system (colours, type, spacing, voice), applies it consistently, and shows before and after. Use when someone says "it looks like every AI app", "make it look like mine", "rebrand this", "apply my brand", or "design system".
+description: "Turns a generic-looking app into a distinct brand: colours, type and voice, applied consistently. Use for 'looks like every AI app', 'rebrand', 'apply my brand' or 'design system'."
 ---
 
 # Make it yours

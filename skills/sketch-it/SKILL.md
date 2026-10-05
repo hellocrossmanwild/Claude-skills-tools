@@ -1,6 +1,6 @@
 ---
 name: sketch-it
-description: Shows an app before any code exists. Lists every screen, sketches them as text wireframes, offers layout and flow options, finds dead ends, and turns the winners into plain mockups. Use when someone says "sketch my screens", "wireframe this", "what pages do I need", or "show me what it looks like".
+description: "Shows an app before any code: screen list, text wireframes, layout and flow options, then mockups. Use for 'wireframe', 'sketch my app', 'what screens do I need' or 'mockup'."
 ---
 
 # Sketch it

@@ -1,6 +1,6 @@
 ---
 name: idea-to-mvp
-description: Turns a rough app idea into a small, buildable first version and a one-page brief. Starts from what the app must remember, checks who already solves the problem, ranks features and draws a "later" line. Use when someone says "plan my app", "what should version one be", "help me scope this", or "write a brief".
+description: "Turns a rough app idea into a small first version and a one-page brief. Use when someone has an app idea, or asks 'what should I build first', 'plan my app', 'write a brief' or 'MVP'."
 ---
 
 # Idea to MVP

@@ -1,6 +1,6 @@
 ---
 name: project-starter
-description: Sets up a new app project for someone who doesn't code. Checks every connected tool (MCP connector) actually answers, interviews them about their idea until it's clear, then writes CLAUDE.md, the project's rules file. Use when someone says "project starter", "set up my project", or "write my CLAUDE.md".
+description: "Sets up a new app project: checks every connected tool works, interviews about the idea, writes CLAUDE.md. Use for 'project starter', 'set up my project', 'new app' or 'write my CLAUDE.md'."
 ---
 
 # Project starter

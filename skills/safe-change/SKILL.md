@@ -1,6 +1,6 @@
 ---
 name: safe-change
-description: Makes every code change safely and in plain English. Works on a branch, saves clear save points, opens a pull request that explains what changed, and can undo back to any save point. Use when making any change to an existing app, or when someone says "save this", "undo that", "go back", "open a pull request", or "what changed".
+description: "Makes code changes safely: a branch, plain-English save points, a pull request and easy undo. Use for changes to a live app, or 'undo that', 'go back', 'what changed' or 'open a PR'."
 ---
 
 # Safe change

@@ -1,6 +1,6 @@
 ---
 name: stack-check
-description: Recommends the simplest production stack for an app idea and estimates what it will cost to run, in plain English. Use when someone asks "what tools do I need", "which stack should I use", "what will this cost to run", or is choosing between hosting, database, login, payment or email services.
+description: "Recommends the simplest production stack for an app and estimates its monthly running cost. Use for 'what tools do I need', 'which stack', 'hosting' or 'how much will it cost to run'."
 ---
 
 # Stack check

@@ -1,6 +1,6 @@
 ---
 name: payment-test
-description: Tests an app's payments end to end in Stripe's sandbox, like a real customer would. Runs successful, declined, refunded and cancelled payments, checks the right thing unlocks, and confirms the emails arrive. Use when someone says "test my payments", "check checkout works", "is Stripe set up right", or before switching to live mode.
+description: "Tests an app's Stripe payments end to end in test mode: paid, declined, refunded, cancelled. Use for 'test my payments', 'check checkout', 'is Stripe set up right' or before going live."
 ---
 
 # Payment test
@@ -25,7 +25,9 @@ Use Stripe's published **test card numbers** (from Stripe's docs) to run each on
 | Refund (from the Stripe dashboard or connector) | Access removed if that's the rule | |
 | Subscription cancelled (if subscriptions) | Access ends at the right time | |
 
-For each, check the app **and** the database actually changed, not just that Stripe says it worked.
+For each, check the app **and** the database actually changed, not just that Stripe says it worked. Use the Stripe connector to confirm each payment, refund and webhook event on Stripe's side.
+
+If you can't use the checkout yourself (for example in a normal chat rather than the Code tab), give them a short numbered list of exactly what to click and ask them to report back or send screenshots. Never mark a step passed without seeing the result.
 
 ## 4. Check the emails
 If Resend (or another email service) is connected, confirm the receipt and welcome emails were sent, which address they came from, and that the sending domain is verified. Flag anything that would land in spam (an unverified domain, or sending from a free email address).

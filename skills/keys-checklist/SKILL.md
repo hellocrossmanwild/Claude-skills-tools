@@ -1,6 +1,6 @@
 ---
 name: keys-checklist
-description: Lists every secret key and setting an app needs, what each must be called, whether it's secret or safe to show, and where it goes. It never asks for or handles the actual values. Use when someone asks "what keys do I need", "set up my environment variables", "what goes in .env", or is connecting a new service.
+description: "Lists every API key and environment variable an app needs and where each goes, never handling values. Use for 'what keys do I need', '.env', 'environment variables' or 'set up keys'."
 ---
 
 # Keys checklist

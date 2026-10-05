@@ -138,7 +138,7 @@ Don't add other services without asking me first and explaining why.
 <br>Yes. Install every skill at once as a plugin:
 <pre>/plugin marketplace add hellocrossmanwild/Claude-skills-tools
 /plugin install build-without-terminal@hellocrossman</pre>
-Or copy any skill folder into <code>~/.claude/skills/</code> (all projects) or <code>.claude/skills/</code> in your project.
+Or copy any skill folder into <code>~/.claude/skills/</code> (all projects) or <code>.claude/skills/</code> in your project. Skills you've switched on in the Claude app also load in Claude Code when you sign in with the same account.
 </details>
 
 ## 💡 Request a skill

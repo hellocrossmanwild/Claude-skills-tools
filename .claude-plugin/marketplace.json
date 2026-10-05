@@ -7,7 +7,7 @@
       "name": "build-without-terminal",
       "source": "./",
       "description": "Fourteen plain-English skills that take an app from idea to first customers: plan, set up, build, check and ship.",
-      "version": "1.1.0"
+      "version": "1.1.1"
     }
   ]
 }

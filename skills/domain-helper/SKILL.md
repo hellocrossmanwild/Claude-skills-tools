@@ -1,6 +1,6 @@
 ---
 name: domain-helper
-description: Walks someone through putting their app on their own domain (yourname.com instead of vercel.app), step by step in plain English, including the DNS records and checking it worked. Use when someone says "add my domain", "custom domain", "connect my domain to Vercel", or "set up DNS".
+description: "Connects an app to its own domain on Vercel, DNS records included, step by step. Use for 'add my domain', 'use my .com', 'set up DNS', or when the site is still on vercel.app."
 ---
 
 # Domain helper
