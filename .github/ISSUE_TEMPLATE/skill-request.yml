@@ -1,0 +1,27 @@
+name: Skill request
+description: Suggest a skill you'd like added
+title: "Skill request: "
+labels: ["skill request"]
+body:
+  - type: textarea
+    id: job
+    attributes:
+      label: What job should the skill do?
+      description: The thing you keep explaining to Claude.
+      placeholder: "Every time I add a page, I want Claude to..."
+    validations:
+      required: true
+  - type: textarea
+    id: tools
+    attributes:
+      label: Which tools are involved?
+      placeholder: "GitHub, Vercel, Stripe..."
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where do you use Claude?
+      options:
+        - Claude Desktop (Code tab)
+        - Claude Desktop (Chat)
+        - claude.ai
+        - Claude Code in the terminal
